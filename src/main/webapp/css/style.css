@@ -1,0 +1,65 @@
+
+html, body {
+	background: url(../img/BG_Tile_TitleBar.png) repeat;
+	height: 100%;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.left-align-text {
+	text-align: left;
+}
+
+.container {
+	background: #F1F1F1;
+	min-height: 100%;
+	border-left: 1px solid #5FBE5F;
+	border-right: 1px solid #5FBE5F;
+}
+
+#head-title {
+	color: #417C2B;
+}
+
+#head-title span {
+	color: #C0CC22;
+}
+
+#spring-logo {
+	padding-bottom: 10px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.slot-list {
+	float: left;
+}
+
+.slot-panel .jSlots-wrapper {
+	overflow: hidden;
+	height: 300px;
+	display: inline-block;
+	border: 1px solid #5FBE5F;
+}
+
+.slot-panel .slot-list li {
+	width: 200px;
+	height: 300px;
+	line-height: 200px;
+	border-left: 1px solid #5FBE5F;
+	background-color: white;
+}
+
+.slot-panel .slot-list:first-child li {
+	border-left: none;
+}
+
+.modal-body {
+	text-align: center;
+}
